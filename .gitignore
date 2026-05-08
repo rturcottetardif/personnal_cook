@@ -1,0 +1,23 @@
+# Environment & secrets — NEVER commit
+.env
+.env.*
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
